@@ -5,8 +5,8 @@ const Schema = mongoose.Schema;
 let PostSchema = new Schema({
     title: {type: String},
         
-    user : {type: String},
-    upvotes : {type: Number}
+    tagline : {type: String},
+    upvotes : {type: String}
 
 })
 
